@@ -1,0 +1,54 @@
+TO DO List:
+-----------
+
+
+- Add a way to make money by playing with your pet
+     - You time your pet on how fast they can run a mile.
+       If you guess correctly within a certain range of seconds you get 100 bucks
+
+       Ex:) You and your {pet} go to the park and time {pet's name} mile time.
+            Guess, within 5, how many seconds it took {pet's name} to run the mile.
+            Average {pet} runtime: 69 seconds
+
+            Your guess: 50
+            ## machine random number 54
+
+            Correct! {Pet name} ran it in 54 seconds.
+            +100 bucks
+-
+
+
+
+
+Bugs (Known / Fixed) 3 , 2:
+---------------------------
+
+
+-
+### ERROR when creating a new player
+
+What will your Cat's name be?
+Keep in mind this will be their name FOREVER
+and you cannot change this... EVER:Lily2
+Welcome Kimrey! and your Cat, Lily2.
+
+Traceback (most recent call last):
+  File "C:\Users\braed\PycharmProjects\pet_game\main.py", line 66, in <module>
+    menu(player_id)
+  File "C:\Users\braed\PycharmProjects\pet_game\main.py", line 47, in menu
+    player_id = create_new_player(data)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\braed\PycharmProjects\pet_game\player.py", line 61, in create_new_player
+    name_index = df[df['Name'] == ask_name].index[0]
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\braed\anaconda3\Lib\site-packages\pandas\core\indexes\base.py", line 5389, in __getitem__
+    return getitem(key)
+           ^^^^^^^^^^^^
+IndexError: index 0 is out of bounds for axis 0 with size 0
+## might be fixed
+
+- When past the initial menu screen, you have to log in twice and then press quit twice
+
+- formating :: add another space in pet name can never be changed ever
+
+

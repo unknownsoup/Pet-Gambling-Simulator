@@ -1,4 +1,7 @@
-index,Name,Password,Balance,Pet,Hunger,Happiness,energy
-0,Frank,oldstyle,1000,Dog,124,104,120
-1,Monica,iluvIan,1000,Cat,50,50,50
-2,Barry,barry123,1000,Chicken,50,50,50
+index,Name,Password,Balance,Pet,Hunger,Happiness,energy,Pet_Name
+0.0,Frank,oldstyle,1000,Dog,124,104,120,Frankie
+1.0,Monica,iluvIan,1000,Cat,50,50,50,Lucy
+2.0,Barry,barry123,1000,Chicken,50,50,50,BM0
+3.0,Braedon,brae123,500,Dragon,-50,-50,-50,Cornelius
+4.0,Kimrey,tswift,500,Cat,50,50,50,Lily2
+5.0,Aristole,greek4life,300,Chicken,50,50,50,Felix
